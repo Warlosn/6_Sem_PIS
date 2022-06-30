@@ -1,0 +1,17 @@
+﻿@model IPhoneDictionary.Phone
+@{
+    ViewBag.Title = "Delete";
+}
+@using Lab6.Helpers
+
+<h2>Delete</h2>
+
+@Html.DeletePhoneForm()
+
+<div>
+    @Html.ActionLink("Home page", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

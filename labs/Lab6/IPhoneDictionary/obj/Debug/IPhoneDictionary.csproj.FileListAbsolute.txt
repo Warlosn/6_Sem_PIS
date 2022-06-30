@@ -1,0 +1,5 @@
+E:\GIT\PIS_Labs\Lab6\Lab6\IPhoneDictionary\bin\Debug\IPhoneDictionary.dll
+E:\GIT\PIS_Labs\Lab6\Lab6\IPhoneDictionary\bin\Debug\IPhoneDictionary.pdb
+E:\GIT\PIS_Labs\Lab6\Lab6\IPhoneDictionary\obj\Debug\IPhoneDictionary.csproj.CoreCompileInputs.cache
+E:\GIT\PIS_Labs\Lab6\Lab6\IPhoneDictionary\obj\Debug\IPhoneDictionary.dll
+E:\GIT\PIS_Labs\Lab6\Lab6\IPhoneDictionary\obj\Debug\IPhoneDictionary.pdb

@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "BSTU/Index";
+}
+
+<h2>BSTU/Index</h2>
+<div>
+    @Html.ActionLink("Ссылка на FIT/Index", "Index", "FIT") <br />
+    @Html.ActionLink("Ссылка на FLT/Index", "Index", "FLT") <br />
+    @Html.ActionLink("Ссылка на FIE/Index", "Index", "FIE") <br />
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (User.IsInRole("Administrator"))
+        {
+            @Html.ActionLink("Ссылка на BSTU/Config", "Config")
+        }
+    }
+</div>

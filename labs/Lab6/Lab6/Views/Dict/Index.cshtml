@@ -1,0 +1,28 @@
+﻿@model List<IPhoneDictionary.Phone>
+@{
+    ViewBag.Title = "Home Page";
+    List<IPhoneDictionary.Phone> phones = ViewBag.phones;
+}
+
+<div>
+    <h2>Phones dictionary</h2>
+    <div>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (phones != null)
+                {
+                    foreach (IPhoneDictionary.Phone phone in phones)
+                    {
+                        @Html.Partial("PhoneRow", (object)phone)
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

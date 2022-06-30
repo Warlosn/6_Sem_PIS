@@ -1,0 +1,14 @@
+owin - open web interface for .net - спецификация, определяюая взаимодействие
+между веб прилодением и веб-сервером.
+приложение, промежуточное по(middleware) сервер и хост
+host - процесс обрабатывает приложение(iss)
+startup.cs. - класс startup. assembly как метка  owin. 
+передаем iappbuilder(интерфейс) это middleware.
+app_start - identityConfig - требования к паролю и имени пользоватеоя
+controller - homecontroller - возвращает вьюшки(view-home)
+view -shared/bstu - скрытие кнопок
+model - appDbInit - описанеи существубщих ролей
+controller - account - атрибусы авторизации
+app_start - startup -для входа гугл
+
+
